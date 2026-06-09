@@ -15,8 +15,8 @@ export const procedureDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Procedures V 1",
-					"value": "Get Procedures V 1",
+					"name": "Get Procedures v1",
+					"value": "Get Procedures v1",
 					"action": "Returns all procedures.",
 					"description": "Returns all procedures.",
 					"routing": {
@@ -27,8 +27,8 @@ export const procedureDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Procedures By Id V 1",
-					"value": "Get Procedures By Id V 1",
+					"name": "Get Procedures By ID v1",
+					"value": "Get Procedures By ID v1",
 					"action": "Returns procedure by ID.",
 					"description": "Returns procedure by ID.",
 					"routing": {
@@ -55,7 +55,7 @@ export const procedureDescription: INodeProperties[] = [
 						"Procedure"
 					],
 					"operation": [
-						"Get Procedures V 1"
+						"Get Procedures v1"
 					]
 				}
 			}
@@ -74,13 +74,13 @@ export const procedureDescription: INodeProperties[] = [
 						"Procedure"
 					],
 					"operation": [
-						"Get Procedures By Id V 1"
+						"Get Procedures By ID v1"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Procedure with the ID specified",
@@ -92,7 +92,7 @@ export const procedureDescription: INodeProperties[] = [
 						"Procedure"
 					],
 					"operation": [
-						"Get Procedures By Id V 1"
+						"Get Procedures By ID v1"
 					]
 				}
 			}

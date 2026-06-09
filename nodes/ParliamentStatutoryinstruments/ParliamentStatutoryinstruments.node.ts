@@ -7,14 +7,14 @@ import { statutoryInstrumentDescription } from './resources/statutory-instrument
 
 export class ParliamentStatutoryinstruments implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'parliament-statutoryinstruments',
+		displayName: 'Parliament Statutoryinstruments',
 		name: 'N8nDevParliamentStatutoryinstruments',
 		icon: { light: 'file:./parliament-statutoryinstruments.svg', dark: 'file:./parliament-statutoryinstruments.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'API exposing details of the various types of Statutory Instruments laid before Parliament',
-		defaults: { name: 'parliament-statutoryinstruments' },
+		defaults: { name: 'Parliament Statutoryinstruments' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

@@ -27,8 +27,8 @@ export const statutoryInstrumentDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Statutory Instrument By Id",
-					"value": "Get Statutory Instrument By Id",
+					"name": "Get Statutory Instrument By ID",
+					"value": "Get Statutory Instrument By ID",
 					"action": "Returns a statutory instrument by ID.",
 					"description": "Returns a statutory instrument by ID.",
 					"routing": {
@@ -39,8 +39,8 @@ export const statutoryInstrumentDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Business Items By Statutory Instrument Id",
-					"value": "Get Business Items By Statutory Instrument Id",
+					"name": "Get Business Items By Statutory Instrument ID",
+					"value": "Get Business Items By Statutory Instrument ID",
 					"action": "Returns business items belonging to statutory instrument with ID.",
 					"description": "Returns business items belonging to statutory instrument with ID.",
 					"routing": {
@@ -251,7 +251,7 @@ export const statutoryInstrumentDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Department Id",
+			"displayName": "Department ID",
 			"name": "DepartmentId",
 			"description": "Statutory instruments with the department ID specified",
 			"default": 0,
@@ -276,7 +276,7 @@ export const statutoryInstrumentDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Laying Body Id",
+			"displayName": "Laying Body ID",
 			"name": "LayingBodyId",
 			"description": "Statutory instruments with the laying body ID specified",
 			"default": "",
@@ -399,13 +399,13 @@ export const statutoryInstrumentDescription: INodeProperties[] = [
 						"Statutory Instrument"
 					],
 					"operation": [
-						"Get Statutory Instrument By Id"
+						"Get Statutory Instrument By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Statutory instrument with the ID specified",
@@ -417,7 +417,7 @@ export const statutoryInstrumentDescription: INodeProperties[] = [
 						"Statutory Instrument"
 					],
 					"operation": [
-						"Get Statutory Instrument By Id"
+						"Get Statutory Instrument By ID"
 					]
 				}
 			}
@@ -436,13 +436,13 @@ export const statutoryInstrumentDescription: INodeProperties[] = [
 						"Statutory Instrument"
 					],
 					"operation": [
-						"Get Business Items By Statutory Instrument Id"
+						"Get Business Items By Statutory Instrument ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Business items belonging to statutory instrument with the ID specified",
@@ -454,7 +454,7 @@ export const statutoryInstrumentDescription: INodeProperties[] = [
 						"Statutory Instrument"
 					],
 					"operation": [
-						"Get Business Items By Statutory Instrument Id"
+						"Get Business Items By Statutory Instrument ID"
 					]
 				}
 			}

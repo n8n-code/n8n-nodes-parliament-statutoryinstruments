@@ -8,7 +8,7 @@ import type {
 export class ParliamentStatutoryinstrumentsApi implements ICredentialType {
 	name = 'N8nDevParliamentStatutoryinstrumentsApi';
 
-	displayName = 'parliament-statutoryinstruments API';
+	displayName = 'Parliament Statutoryinstruments API';
 
 	icon: Icon = { light: 'file:../nodes/ParliamentStatutoryinstruments/parliament-statutoryinstruments.svg', dark: 'file:../nodes/ParliamentStatutoryinstruments/parliament-statutoryinstruments.dark.svg' };
 
@@ -22,7 +22,7 @@ export class ParliamentStatutoryinstrumentsApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'https://api.example.com',
-			description: 'The base URL of your parliament-statutoryinstruments API server',
+			description: 'The base URL of your Parliament Statutoryinstruments API server',
 		},
 		{
 			displayName: 'API Key',

@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-parliament-statutoryinstruments",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API exposing details of the various types of Statutory Instruments laid before Parliament",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-parliament-statutoryinstruments",
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "parliament-statutoryinstruments"

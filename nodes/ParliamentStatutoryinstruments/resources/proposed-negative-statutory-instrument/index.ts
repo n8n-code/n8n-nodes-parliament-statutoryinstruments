@@ -27,8 +27,8 @@ export const proposedNegativeStatutoryInstrumentDescription: INodeProperties[] =
 					}
 				},
 				{
-					"name": "Get Proposed Negative Statutory Instrument By Id",
-					"value": "Get Proposed Negative Statutory Instrument By Id",
+					"name": "Get Proposed Negative Statutory Instrument By ID",
+					"value": "Get Proposed Negative Statutory Instrument By ID",
 					"action": "Returns proposed negative statutory instrument by ID.",
 					"description": "Returns proposed negative statutory instrument by ID.",
 					"routing": {
@@ -39,8 +39,8 @@ export const proposedNegativeStatutoryInstrumentDescription: INodeProperties[] =
 					}
 				},
 				{
-					"name": "Get Business Items By Proposed Negative Statutory Instrument Id",
-					"value": "Get Business Items By Proposed Negative Statutory Instrument Id",
+					"name": "Get Business Items By Proposed Negative Statutory Instrument ID",
+					"value": "Get Business Items By Proposed Negative Statutory Instrument ID",
 					"action": "Returns business items belonging to a proposed negative statutory instrument.",
 					"description": "Returns business items belonging to a proposed negative statutory instrument.",
 					"routing": {
@@ -123,7 +123,7 @@ export const proposedNegativeStatutoryInstrumentDescription: INodeProperties[] =
 			}
 		},
 		{
-			"displayName": "Department Id",
+			"displayName": "Department ID",
 			"name": "DepartmentId",
 			"description": "Proposed negative statutory instruments with the department ID specified",
 			"default": 0,
@@ -148,7 +148,7 @@ export const proposedNegativeStatutoryInstrumentDescription: INodeProperties[] =
 			}
 		},
 		{
-			"displayName": "Laying Body Id",
+			"displayName": "Laying Body ID",
 			"name": "LayingBodyId",
 			"description": "Proposed negative statutory instruments with the laying body ID specified",
 			"default": "",
@@ -236,13 +236,13 @@ export const proposedNegativeStatutoryInstrumentDescription: INodeProperties[] =
 						"Proposed Negative Statutory Instrument"
 					],
 					"operation": [
-						"Get Proposed Negative Statutory Instrument By Id"
+						"Get Proposed Negative Statutory Instrument By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Proposed negative statutory instrument with the ID specified",
@@ -254,7 +254,7 @@ export const proposedNegativeStatutoryInstrumentDescription: INodeProperties[] =
 						"Proposed Negative Statutory Instrument"
 					],
 					"operation": [
-						"Get Proposed Negative Statutory Instrument By Id"
+						"Get Proposed Negative Statutory Instrument By ID"
 					]
 				}
 			}
@@ -273,13 +273,13 @@ export const proposedNegativeStatutoryInstrumentDescription: INodeProperties[] =
 						"Proposed Negative Statutory Instrument"
 					],
 					"operation": [
-						"Get Business Items By Proposed Negative Statutory Instrument Id"
+						"Get Business Items By Proposed Negative Statutory Instrument ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Business items belonging to proposed negative statutory instrument with the ID specified",
@@ -291,7 +291,7 @@ export const proposedNegativeStatutoryInstrumentDescription: INodeProperties[] =
 						"Proposed Negative Statutory Instrument"
 					],
 					"operation": [
-						"Get Business Items By Proposed Negative Statutory Instrument Id"
+						"Get Business Items By Proposed Negative Statutory Instrument ID"
 					]
 				}
 			}

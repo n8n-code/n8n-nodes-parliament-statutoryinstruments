@@ -53,13 +53,45 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Business Item | Get returns business item by id |
-| Laying Body | Get returns all laying bodies |
-| Procedure | Get returns all procedures, Get returns procedure by id |
-| Proposed Negative Statutory Instrument | Get returns a list of proposed negative statutory instruments, Get returns proposed negative statutory instrument by id, Get returns business items belonging to a proposed negative statutory instrument |
-| Statutory Instrument | Get returns a list of statutory instruments, Get returns a statutory instrument by id, Get returns business items belonging to statutory instrument with id |
+<details>
+<summary><b>Business Item</b> (1 operations)</summary>
+
+- Get Returns business item by ID
+
+</details>
+
+<details>
+<summary><b>Laying Body</b> (1 operations)</summary>
+
+- Get Returns all laying bodies
+
+</details>
+
+<details>
+<summary><b>Procedure</b> (2 operations)</summary>
+
+- Get Returns all procedures
+- Get Returns procedure by ID
+
+</details>
+
+<details>
+<summary><b>Proposed Negative Statutory Instrument</b> (3 operations)</summary>
+
+- Get Returns a list of proposed negative statutory instruments
+- Get Returns proposed negative statutory instrument by ID
+- Get Returns business items belonging to a proposed negative statutory instrument
+
+</details>
+
+<details>
+<summary><b>Statutory Instrument</b> (3 operations)</summary>
+
+- Get Returns a list of statutory instruments
+- Get Returns a statutory instrument by ID
+- Get Returns business items belonging to statutory instrument with ID
+
+</details>
 
 ---
 

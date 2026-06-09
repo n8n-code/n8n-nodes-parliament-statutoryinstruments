@@ -15,8 +15,8 @@ export const businessItemDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Business Item By Id",
-					"value": "Get Business Item By Id",
+					"name": "Get Business Item By ID",
+					"value": "Get Business Item By ID",
 					"action": "Returns business item by ID.",
 					"description": "Returns business item by ID.",
 					"routing": {
@@ -43,13 +43,13 @@ export const businessItemDescription: INodeProperties[] = [
 						"Business Item"
 					],
 					"operation": [
-						"Get Business Item By Id"
+						"Get Business Item By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "Business item with the ID specified",
@@ -61,7 +61,7 @@ export const businessItemDescription: INodeProperties[] = [
 						"Business Item"
 					],
 					"operation": [
-						"Get Business Item By Id"
+						"Get Business Item By ID"
 					]
 				}
 			}
@@ -96,7 +96,7 @@ export const businessItemDescription: INodeProperties[] = [
 						"Business Item"
 					],
 					"operation": [
-						"Get Business Item By Id"
+						"Get Business Item By ID"
 					]
 				}
 			}
